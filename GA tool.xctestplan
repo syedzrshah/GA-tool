@@ -1,0 +1,40 @@
+{
+  "configurations" : [
+    {
+      "id" : "38F14D8F-84CE-4CA6-B84E-4A7033187C0E",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:GA tool.xcodeproj",
+      "identifier" : "E8BC12762ABD5F320098CA3D",
+      "name" : "GA tool"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "selectedTests" : [
+
+      ],
+      "target" : {
+        "containerPath" : "container:GA tool.xcodeproj",
+        "identifier" : "E8BC12872ABD5F340098CA3D",
+        "name" : "GA toolTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:GA tool.xcodeproj",
+        "identifier" : "E8BC12912ABD5F340098CA3D",
+        "name" : "GA toolUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
